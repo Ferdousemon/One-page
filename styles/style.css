@@ -1,0 +1,45 @@
+.img-item h2{
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #5a5a5a;
+    
+}
+.img-item a{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn{
+    display: block;
+    width: 100%;
+}
+.ad1{
+    height: 250px;
+    width: 300px;
+    background-color: #f39c12;
+}
+.ad2{
+    height: 250px;
+    width: 300px;
+    background-color: #27ae60;
+}
+.ad3{
+    height: 250px;
+    width: 300px;
+    background-color: #8e44ad;
+}
+
+.adplace {
+    /* Add some space around the adplace div */
+    margin: 20px;
+  }
+
+  .adplace > div {
+    /* Add space between the ad divs */
+    margin-right: 40px;
+  }
+
+  .adplace > div:last-child {
+    /* Remove margin from the last ad div to avoid extra space */
+    margin-right: 0;
+  }
